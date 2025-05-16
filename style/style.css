@@ -19,7 +19,7 @@ header {
 }
 
 main {
-  height: 80vh;
+  min-height: 80vh;
   padding: 50px 25px;
   display: flex;
   flex-direction: column;
@@ -42,8 +42,7 @@ ul {
 }
 
 li {
-  list-style: decimal;
-  margin-left: 25px;
+  list-style: none;
   font-weight: 700;
   font-size: 1.1rem;
 }
